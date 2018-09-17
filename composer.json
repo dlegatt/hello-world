@@ -13,5 +13,20 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dlegatt\\HelloWorld\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dlegatt\\HelloWorld\\Tests\\": "/Tests/"
+        }
+    }
 }
