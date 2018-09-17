@@ -1,0 +1,17 @@
+{
+    "name": "dlegatt/hello-world",
+    "description": "A Hello World PHP library",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Legatt",
+            "email": "dlegatt@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
